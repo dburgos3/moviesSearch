@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="../src/bootstrap-4.5.3-dist/css/bootstrap.min.css" />
+    <!-- <link href="../moviesSearch/src/styles/styles.css" /> -->
+
+    <title>Movies APP</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <movie-app></movie-app>
+    </div>
+
+    <!-- Elementos de vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./components/movies/movieComp.js"></script>
+    <script src="./components/movies/searchComp.js"></script>
+    <script src="./components/movies/filtersComp.js"></script>
+    <script src="./components/movies/index.js"></script>
+
+    <script>
+      Vue.mixin({
+        filters: {
+          coverURL(str) {
+            return `https://image.tmdb.org/t/p/w185_and_h278_bestv2${str}`
+          }
+        }
+      })
+
+      let vm = new Vue({
+        el: '#app'
+      })
+    </script>
+  </body>
+</html>
