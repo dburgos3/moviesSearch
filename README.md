@@ -1,10 +1,10 @@
 # App: Search Movies
 
-App created as part of recruitment process for Fron-end developer.
+App created as part of recruitment process for Front-end developer.
 
 ## Intro and Stack used
 
-The app consist of a searching app with a filters functionality.
+This app consist of a movie list app that shows and filters movie based on top rated, popular, upcoming or based on a search box. The app consumes the API of [The movie DB](https://www.themoviedb.org/)
 
 This app is created using:
 
