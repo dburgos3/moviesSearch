@@ -15,7 +15,7 @@ This app is created using:
 
 ## How to launch the application
 
-Launch a development local server with live reload of the file [index.html](https://github.com/dburgos3/moviesSearch/blob/master/index.html), for VS Code I used the Extension " Live Server by Ritwick Dey"
+Launch a development local server with live reload of the file [movies.html](https://github.com/dburgos3/moviesSearch/blob/master/movies.html), for VS Code I used the Extension " Live Server by Ritwick Dey"
 
 ### Questions:
 
