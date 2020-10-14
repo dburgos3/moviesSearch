@@ -12,6 +12,7 @@ This app is created using:
 - [bootstrap 4](https://getbootstrap.com/) Library for the styles.
 - [The movie DB](https://www.themoviedb.org/) API to consume in the APP.
 
+
 ## How to launch the application
 
 Launch a development local server with live reload of the file [index.html](https://github.com/dburgos3/moviesSearch/blob/master/index.html), for VS Code I used the Extension " Live Server by Ritwick Dey"
@@ -20,7 +21,7 @@ Launch a development local server with live reload of the file [index.html](http
 
 1. What is the Single Responsibility Principle? What's its purpose?
 
-- It is based on the premise that all classes have only one reason to change, its highest purpose to easily manipulate components and minimize errors.
+- It's a principle which states that every class/function in a program should encapsulate the responsibility over a single part of that program functionality. It's highest purpose is to easily manipulate and maintains components/classes/function and minimize errors because it keeps the class/function focused on a single concern.
 
 2. What characteristics does a "good" code or clean code have?
 
